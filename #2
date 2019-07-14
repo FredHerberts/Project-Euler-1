@@ -1,6 +1,12 @@
 import time
+import math
 start = time.time()
-print((((999+3)*333)/2)+(((995+5)*199)/2)-(((990+15)*66)/2))
+a = math.floor(1000/3)
+b = a * 3
+c = math.floor(1000/5)
+d = c * 5
+e = math.floor(1000/15)
+f = e * 15
+print((((b+3)*a)/2)+(((d)*(c-1))/2)-(((f+15)*e)/2))
 end = time.time()
 print(end - start)
-
